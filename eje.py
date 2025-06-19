@@ -135,3 +135,6 @@ if __name__ == "__main__":
     print("Búsqueda por título 'amor':")
     for libro in biblioteca.buscar_por_titulo("amor"):
         print(f"- {libro.titulo} de {libro.autor.nombre}")
+        print(f"- {libro.titulo} de {libro.autor.nombre}")
+
+
